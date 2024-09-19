@@ -1,21 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/BasicProject" version="1.0.0" viewmodes="fullscreen">
-    <tizen:application id="tFdgWuLk2P.BasicProject" package="tFdgWuLk2P" required_version="2.3"/>
-    <content src="index.html"/>
-    <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
-    <feature name="http://tizen.org/feature/network.internet"/>
-    <feature name="http://tizen.org/api/tizen" required="true"/>
-    <access origin="*" subdomains="true"/>
-    <!-- <tizen:allow-navigation>tizen.org *.tizen.org</tizen:allow-navigation>
-    <tizen:content-security-policy>script-src 'self'</tizen:content-security-policy>
-	<tizen:content-security-policy-report-only>script-src 'self';</tizen:content-security-policy-report-only> -->
-    <icon src="icon.png"/>
-    <!-- <tizen:metadata key="http://tizen.org/metadata/app_ui_type/base_screen_resolution" value="extensive"/> -->
-    <name>BasicProject</name>
-    <tizen:content src="https://staging-web.duriooplus.com"/>
-    <tizen:profile name="tv-samsung"/>
-    <tizen:privilege name="http://tizen.org/privilege/internet"/>
-    <tizen:privilege name="http://tizen.org/privilege/tizen"/>
-    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
-    <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="https://duriooplus.ott/app" version="1.34.0" viewmodes="maximized">
+  <access origin="*" subdomains="true"/>
+  <tizen:application id="g6KuDGkmOc.duriooplus" package="g6KuDGkmOc" required_version="5.0"/>
+  <content src="index.html"/>
+  <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+  <icon src="icon.png"/>
+  <tizen:metadata key="http://samsung.com/tv/metadata/multitasking.support" value="true"/>
+  <name>Durioo+</name>
+  <tizen:privilege name="http://tizen.org/privilege/internet"/>
+  <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+  <tizen:profile name="tv-samsung"/>
+  <tizen:setting pointing-device-support="disable"/>
 </widget>
