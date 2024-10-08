@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="https://duriooplus.ott/app" version="1.34.0" viewmodes="maximized">
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="https://duriooplus.ott/app" version="1.34.1" viewmodes="maximized">
   <access origin="*" subdomains="true"/>
   <tizen:application id="g6KuDGkmOc.duriooplus" package="g6KuDGkmOc" required_version="5.0"/>
   <content src="index.html"/>
